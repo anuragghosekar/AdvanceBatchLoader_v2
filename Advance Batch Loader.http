@@ -1,0 +1,6 @@
+@Advance_Batch_Loader_HostAddress = http://localhost:5264
+
+GET {{Advance_Batch_Loader_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

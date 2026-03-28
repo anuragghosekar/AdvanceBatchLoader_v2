@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Advance Batch Loader.props" />
+</Project>

@@ -1,0 +1,198 @@
+﻿﻿ /* Page Layout */
+.upload-container {
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 10px 40px;
+    background: linear-gradient(135deg,#f3f5f9,#e6ebf2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Page Title */
+
+.upload-container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    bottom: 5px;
+    color: #333;
+}
+/* Drag Drop Box */
+.upload-top-section {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.drop-zone {
+    flex: 2;
+    height: 200px;
+    background: white;
+    border: 2px dashed #dcdcdc;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .drop-zone:hover {
+        border-color: #e53935;
+        background: #fffafa;
+    }
+
+    .drop-zone p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 8px;
+    }
+    /* File Input */
+
+    .drop-zone input {
+        margin-top: 10px;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+/* Selected file */
+
+.file-name {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+/* ItemType Section */
+
+.itemtype-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+    .itemtype-section label {
+        font-size: 14px;
+        margin-bottom: 6px;
+        color: #555;
+    }
+
+    .itemtype-section select {
+        padding: 11px;
+        font-size: 14px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        transition: all 0.2s ease;
+        width: 100%
+    }
+
+        .itemtype-section select:focus {
+            outline: none;
+            border-color: #e53935;
+            box-shadow: 0 0 3px rgba(229,57,53,0.4);
+        }
+
+.import-btn {
+    margin-bottom: 10px;
+}
+
+.import-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+.import-btn {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+    .import-btn:hover {
+        background: #1565c0;
+    }
+
+
+/* Responsive */
+
+@media (max-width:900px) {
+    .drop-zone, .itemtype-section {
+        width: 90%;
+    }
+
+    .mapping-section {
+        width: 95%;
+    }
+}
+
+/* Logs Section */
+
+.logs-section {
+    width: 90%;
+    margin-top: 35px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Logs header */
+
+.logs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Export button */
+
+.export-btn {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+    .export-btn:hover {
+        background: #1565c0;
+    }
+
+
+/* Status colors */
+
+.log-error {
+    color: #e53935;
+    font-weight: 600;
+}
+
+.log-warning {
+    color: #f9a825;
+    font-weight: 600;
+}
+
+.log-success {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+.logs-table-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+

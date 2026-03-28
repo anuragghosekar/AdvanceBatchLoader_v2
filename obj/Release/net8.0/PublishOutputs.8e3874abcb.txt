@@ -1,0 +1,58 @@
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Advance Batch Loader.exe
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\ClientApp\build\asset-manifest.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\ClientApp\build\manifest.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\ClientApp\package-lock.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\ClientApp\package.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\ClientApp\public\manifest.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Advance Batch Loader.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Advance Batch Loader.deps.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Advance Batch Loader.runtimeconfig.json
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Advance Batch Loader.pdb
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Aras.Cryptography.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Aras.Net.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\IOM.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\EPPlus.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\EPPlus.Interfaces.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Configuration.Json.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Nito.AsyncEx.Context.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Nito.AsyncEx.Tasks.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Nito.Disposables.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Data.HashFunction.Core.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Data.HashFunction.Interfaces.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Data.HashFunction.xxHash.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Drawing.Common.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Private.ServiceModel.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Runtime.Caching.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.Xml.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Security.Permissions.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.ServiceModel.Http.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.ServiceModel.Duplex.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.ServiceModel.Primitives.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.ServiceModel.Security.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\System.Windows.Extensions.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Makethon 2026\Project\Advance Batch Loader\Advance Batch Loader\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net6.0\System.Windows.Extensions.dll

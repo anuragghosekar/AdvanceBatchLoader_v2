@@ -1,0 +1,254 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\clientapp\\src\\pages\\upload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:clientapp\\src\\pages\\upload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\services\\arasconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:services\\arasconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\models\\importrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:models\\importrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\clientapp\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:clientapp\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\controllers\\arasmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:controllers\\arasmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\services\\importservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:services\\importservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\clientapp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:clientapp\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\controllers\\excelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:controllers\\excelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\clientapp\\src\\styles\\upload.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:clientapp\\src\\styles\\upload.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\models\\partdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:models\\partdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\models\\arasproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:models\\arasproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|d:\\assignments\\abl_aras\\advance batch loader\\clientapp\\src\\components\\privateroute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C8593D98-D256-4882-B770-54761355962D}|Advance Batch Loader.csproj|solutionrelative:clientapp\\src\\components\\privateroute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImportRequest.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Models\\ImportRequest.cs",
+              "RelativeDocumentMoniker": "Models\\ImportRequest.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Models\\ImportRequest.cs",
+              "RelativeToolTip": "Models\\ImportRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T07:32:30.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.js",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\App.js",
+              "RelativeDocumentMoniker": "ClientApp\\src\\App.js",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\App.js",
+              "RelativeToolTip": "ClientApp\\src\\App.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-05T07:30:01.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArasMetadata.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Controllers\\ArasMetadata.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArasMetadata.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Controllers\\ArasMetadata.cs",
+              "RelativeToolTip": "Controllers\\ArasMetadata.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T11:56:38.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Upload.js",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\pages\\Upload.js",
+              "RelativeDocumentMoniker": "ClientApp\\src\\pages\\Upload.js",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\pages\\Upload.js",
+              "RelativeToolTip": "ClientApp\\src\\pages\\Upload.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-11T06:30:10.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T11:26:48.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\package.json",
+              "RelativeDocumentMoniker": "ClientApp\\package.json",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\package.json",
+              "RelativeToolTip": "ClientApp\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T10:21:30.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExcelController.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Controllers\\ExcelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExcelController.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Controllers\\ExcelController.cs",
+              "RelativeToolTip": "Controllers\\ExcelController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T07:18:43.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImportController.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "Controllers\\ImportController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwFEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:51:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArasConnectionService.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Services\\ArasConnectionService.cs",
+              "RelativeDocumentMoniker": "Services\\ArasConnectionService.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Services\\ArasConnectionService.cs",
+              "RelativeToolTip": "Services\\ArasConnectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T12:01:29.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImportService.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Services\\ImportService.cs",
+              "RelativeDocumentMoniker": "Services\\ImportService.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Services\\ImportService.cs",
+              "RelativeToolTip": "Services\\ImportService.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwJUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:38:50.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PartData.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Models\\PartData.cs",
+              "RelativeDocumentMoniker": "Models\\PartData.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Models\\PartData.cs",
+              "RelativeToolTip": "Models\\PartData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T09:34:02.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArasProperty.cs",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Models\\ArasProperty.cs",
+              "RelativeDocumentMoniker": "Models\\ArasProperty.cs",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Models\\ArasProperty.cs",
+              "RelativeToolTip": "Models\\ArasProperty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T11:53:20.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Upload.css",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\styles\\Upload.css",
+              "RelativeDocumentMoniker": "ClientApp\\src\\styles\\Upload.css",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\styles\\Upload.css",
+              "RelativeToolTip": "ClientApp\\src\\styles\\Upload.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-10T10:45:03.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PrivateRoute.js",
+              "DocumentMoniker": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\components\\PrivateRoute.js",
+              "RelativeDocumentMoniker": "ClientApp\\src\\components\\PrivateRoute.js",
+              "ToolTip": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\ClientApp\\src\\components\\PrivateRoute.js",
+              "RelativeToolTip": "ClientApp\\src\\components\\PrivateRoute.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-06T06:53:35.631Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

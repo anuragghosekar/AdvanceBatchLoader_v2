@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\asset-manifest.json",
+      "PackagePath": "staticwebassets\\importer\\asset-manifest.json"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\favicon.ico",
+      "PackagePath": "staticwebassets\\importer\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\index.html",
+      "PackagePath": "staticwebassets\\importer\\index.html"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\logo192.png",
+      "PackagePath": "staticwebassets\\importer\\logo192.png"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\logo512.png",
+      "PackagePath": "staticwebassets\\importer\\logo512.png"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\manifest.json",
+      "PackagePath": "staticwebassets\\importer\\manifest.json"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\robots.txt",
+      "PackagePath": "staticwebassets\\importer\\robots.txt"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\css\\main.5d690f84.css",
+      "PackagePath": "staticwebassets\\importer\\static\\css\\main.5d690f84.css"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\css\\main.5d690f84.css.map",
+      "PackagePath": "staticwebassets\\importer\\static\\css\\main.5d690f84.css.map"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\453.a534ed6d.chunk.js",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\453.a534ed6d.chunk.js"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\453.a534ed6d.chunk.js.map",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\453.a534ed6d.chunk.js.map"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.768656a3.js",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.768656a3.js"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.768656a3.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.768656a3.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.768656a3.js.map",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.768656a3.js.map"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.bd9581bb.js",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.bd9581bb.js"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.bd9581bb.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.bd9581bb.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.bd9581bb.js.map",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.bd9581bb.js.map"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.ee229457.js",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.ee229457.js"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.ee229457.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.ee229457.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.ee229457.js.map",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.ee229457.js.map"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.fa9adcfc.js",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.fa9adcfc.js"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.fa9adcfc.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.fa9adcfc.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Makethon 2026\\Project\\Advance Batch Loader\\Advance Batch Loader\\wwwroot\\importer\\static\\js\\main.fa9adcfc.js.map",
+      "PackagePath": "staticwebassets\\importer\\static\\js\\main.fa9adcfc.js.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Advance Batch Loader.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Advance Batch Loader.props",
+      "PackagePath": "build\\Advance Batch Loader.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Advance Batch Loader.props",
+      "PackagePath": "buildMultiTargeting\\Advance Batch Loader.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Advance Batch Loader.props",
+      "PackagePath": "buildTransitive\\Advance Batch Loader.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
