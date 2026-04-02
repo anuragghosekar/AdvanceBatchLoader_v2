@@ -9908,11 +9908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Advance Batch Loader.csproj",
-      "projectName": "Advance Batch Loader",
-      "projectPath": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Advance Batch Loader.csproj",
+      "projectUniqueName": "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\AdvanceBatchLoader.csproj",
+      "projectName": "AdvanceBatchLoader",
+      "projectPath": "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\AdvanceBatchLoader.csproj",
       "packagesPath": "C:\\Users\\AnuragGhosekar\\.nuget\\packages\\",
-      "outputPath": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\obj\\publish\\win-x64\\",
+      "outputPath": "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

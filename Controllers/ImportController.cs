@@ -37,47 +37,26 @@ namespace Advance_Batch_Loader.Controllers
             try
             {
                 var request = JsonConvert.DeserializeObject<ImportRequest>(requestJson);
-                // Step 1: Parse Mapping Excel
-
                 using var mappingStream = mappingFile.OpenReadStream();
-
                 var mappings = _excelService.ParseMappingExcel(mappingStream);
-
-                // Step 2: Read Data Excel
-
                 using var dataStream = dataFile.OpenReadStream();
-
                 using var package = new ExcelPackage(dataStream);
                 var sheet = package.Workbook.Worksheets[0];
-
-                // Resolve column indexes from headers
                 mappings = _excelService.ResolveColumnIndexes(sheet, mappings);
-
-                // Reset stream so Excel can be read again
                 dataStream.Position = 0;
-
-                // Step 3: Parse rows using mapping
-
                 var rows = _excelService.ParseExcel(dataStream, mappings);
-
-                // Reset stream again for BOM parsing
                 dataStream.Position = 0;
-
-                // Step 4: Find item_number column
-
                 var itemNumberMapping = mappings
                     .FirstOrDefault(m => m.PropertyName == "item_number");
-
                 if (itemNumberMapping == null)
                     throw new Exception("Mapping for item_number is required.");
-
                 int itemNumberColumn = itemNumberMapping.ColumnIndex;
-
-                // Step 5: Parse BOM
-
+                var quantityMapping = mappings.FirstOrDefault(m => m.PropertyName.Equals("quantity", StringComparison.OrdinalIgnoreCase));
+                int quantityColumn = quantityMapping?.ColumnIndex ?? -1;
                 var bomRows = _excelService.ParseBom(
                     dataStream,
-                    itemNumberColumn);
+                    itemNumberColumn, quantityColumn);
+
 
                 return Ok(new
                 {

@@ -1,16 +1,18 @@
-﻿import React, { useState } from "react";
+﻿import React, { useRef, useState } from "react";
 import "../styles/Upload.css";
 import * as XLSX from "xlsx";
-
 function Upload() {
 
     const [dataFile, setDataFile] = useState(null);
     const [mappingFile, setMappingFile] = useState(null);
-
+    const [logs, setLogs] = useState([]);
     const [dataFileName, setDataFileName] = useState("");
     const [mappingFileName, setMappingFileName] = useState("");
     const [itemType, setItemType] = useState("");
     const [currentItem, setCurrentItem] = useState("");
+    const dataInputRef = useRef(null);
+    const mappingInputRef = useRef(null);
+
 
     const itemTypes = [
         "Part",
@@ -116,7 +118,6 @@ function Upload() {
 
         try {
 
-            const apiUrl = "http://localhost/BatchLoaderAPI/api/import/bom";
 
             const requestPayload = {
                 itemType: itemType
@@ -127,6 +128,18 @@ function Upload() {
             formData.append("mappingFile", mappingFile);
             formData.append("requestJson", JSON.stringify(requestPayload));
 
+            let aras = window.aras || window.parent.aras || window.top.aras;
+
+            if (!aras) {
+
+                alert("Aras context not found");
+                return;
+            }
+
+            let baseUrl = aras.getBaseURL();
+            baseUrl = baseUrl.replace(/X-salt-[^/]+\//, "");
+            const rootUrl = baseUrl.split("/Client")[0];
+            const apiUrl = rootUrl.replace(/\/[^/]+$/, "/BatchLoaderAPI") + "/api/import/bom";
             const response = await fetch(apiUrl, {
                 method: "POST",
                 body: formData,
@@ -148,7 +161,6 @@ function Upload() {
 
             setCurrentItem("Import Started...");
 
-            // 🔥 COUNTERS
             let successCount = 0;
             let failCount = 0;
 
@@ -163,9 +175,7 @@ function Upload() {
             const batchSize = 200;
             const batches = chunkArray(rows, batchSize);
 
-            // ========================
-            // 🔥 CREATE ITEMS
-            // ========================
+            // PART
 
             for (let i = 0; i < batches.length; i++) {
 
@@ -220,17 +230,58 @@ function Upload() {
                             singleRes.includes("<Fault>") ||
                             singleRes.includes("Exception");
 
+                        const now = new Date();
+
                         if (rowError) {
+
                             failCount++;
-                            console.error(`❌ Row ${i + j + 2} failed`);
+
+                            let errorMessage = "Unknown error";
+
+                            try {
+                                const parser = new DOMParser();
+                                const xml = parser.parseFromString(singleRes, "text/xml");
+
+                                const fault = xml.getElementsByTagName("faultstring")[0];
+
+                                if (fault && fault.textContent) {
+                                    errorMessage = fault.textContent;
+                                }
+
+                            } catch (e) {
+                                errorMessage = "Error parsing response";
+                            }
+
+                            setLogs(prev => [
+                                ...prev,
+                                {
+                                    date: now.toLocaleDateString(),
+                                    time: now.toLocaleTimeString(),
+                                    item: row.item_number || row.name || "",
+                                    status: "FAILED",
+                                    error: errorMessage  
+                                }
+                            ]);
+
                         } else {
+
                             successCount++;
-                            console.log(`✅ Row ${i + j + 2} success`);
+
+                            setLogs(prev => [
+                                ...prev,
+                                {
+                                    date: now.toLocaleDateString(),
+                                    time: now.toLocaleTimeString(),
+                                    item: row.item_number || row.name || "",
+                                    status: "SUCCESS",
+                                    error: ""
+                                }
+                            ]);
                         }
                     }
 
                 } else {
-                    successCount += batch.length; // 🔥 IMPORTANT FIX
+                    successCount += batch.length;
                     console.log(`✅ Batch ${i + 1} success`);
                 }
 
@@ -239,9 +290,7 @@ function Upload() {
                 );
             }
 
-            // ========================
-            // 🔥 CREATE BOM
-            // ========================
+            // BOM
 
             const partNumbers = [
                 ...new Set([
@@ -293,9 +342,7 @@ function Upload() {
                 );
             }
 
-            // ========================
-            // ✅ FINAL STATUS
-            // ========================
+            // Final status
 
             const total = successCount + failCount;
 
@@ -308,13 +355,46 @@ function Upload() {
             alert("Import failed");
         }
     };
+    const exportLogs = () => {
+
+        if (logs.length === 0) {
+            alert("No logs to export");
+            return;
+        }
+
+        const now = new Date();
+
+        const fileName =
+            now.getFullYear() + "-" +
+            String(now.getMonth() + 1).padStart(2, '0') + "-" +
+            String(now.getDate()).padStart(2, '0') + "." +
+            String(now.getHours()).padStart(2, '0') + "-" +
+            String(now.getMinutes()).padStart(2, '0');
+
+        let content = "Date\tTime\tItem\tStatus\tError\n";
+
+        logs.forEach(log => {
+            content += `${log.date}\t${log.time}\t${log.item}\t${log.status}\t${log.error}\n`;
+        });
+
+        const blob = new Blob([content], { type: "text/plain" });
+
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = fileName + ".txt";
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
 
 
     return (
 
         <div className="upload-container">
 
-            <h2>Batch Import</h2>
+            <h2>Item Loader</h2>
 
             {/* Upload Section */}
 
@@ -325,36 +405,86 @@ function Upload() {
                     <h4>Upload Data Excel</h4>
 
                     <input
+
+                        ref={dataInputRef}
+
                         type="file"
+
                         accept=".xls,.xlsx"
+
                         onChange={handleDataFileChange}
+
                     />
 
                     {dataFileName && (
-                        <p className="file-name">
-                            {dataFileName}
-                        </p>
+                        <div className="file-name-row">
+                            <span>{dataFileName}</span>
+                            <button
+
+                                className="remove-btn"
+
+                                onClick={() => {
+
+                                    setDataFile(null);
+
+                                    setDataFileName("");
+
+                                    dataInputRef.current.value = "";
+
+                                }}
+                            >
+
+                                ❌
+                            </button>
+                        </div>
+
                     )}
 
                 </div>
+
 
                 <div className="drop-zone">
 
                     <h4>Upload Mapping Excel</h4>
 
                     <input
+
+                        ref={mappingInputRef}
+
                         type="file"
+
                         accept=".xls,.xlsx"
+
                         onChange={handleMappingFileChange}
+
                     />
 
                     {mappingFileName && (
-                        <p className="file-name">
-                            {mappingFileName}
-                        </p>
+                        <div className="file-name-row">
+                            <span>{mappingFileName}</span>
+                            <button
+
+                                className="remove-btn"
+
+                                onClick={() => {
+
+                                    setMappingFile(null);
+
+                                    setMappingFileName("");
+
+                                    mappingInputRef.current.value = "";
+
+                                }}
+                            >
+
+                                ❌
+                            </button>
+                        </div>
+
                     )}
 
                 </div>
+
 
                 <div className="itemtype-section">
 
@@ -391,7 +521,14 @@ function Upload() {
             <div className="logs-section">
 
                 <div className="logs-header">
-                    <h3>Import Progress</h3>
+                    <h4>Import Progress</h4>
+
+                    <button
+                        className="export-btn"
+                        onClick={exportLogs}
+                    >
+                        Export Logs
+                    </button>
                 </div>
 
                 <div className="logs-table-container">

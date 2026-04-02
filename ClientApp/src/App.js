@@ -5,13 +5,13 @@ import './App.css';
 
 
 function App() {
-    //const baseName = window.location.pathname.replace("/index.html", "");
   return (
       
-      <BrowserRouter basename="/InnovatorServer35/Client/scripts/importer">
+      <BrowserRouter>
 
           <Routes>
               <Route path="/" element={<Upload />} />
+              <Route path="*" element={<Upload />} />
               <Route path="/index.html" element={<Upload />} />
 
           </Routes>

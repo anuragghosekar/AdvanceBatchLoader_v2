@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Advance Batch Loader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4c4a5b89ab0506fa0ba07f8762825a6d86c3c3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2280d2658f3872ace6441e5a0d33e047ea425da")]
 [assembly: System.Reflection.AssemblyProductAttribute("Advance Batch Loader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Advance Batch Loader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

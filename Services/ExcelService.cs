@@ -112,51 +112,96 @@ public class ExcelService
     }
 
 
-    public List<BomData> ParseBom(Stream stream, int itemNumberColumn)
+    public List<BomData> ParseBom(Stream stream, int itemNumberColumn, int quantityColumn)
+
     {
+
         using var package = new ExcelPackage(stream);
+
         var sheet = package.Workbook.Worksheets[0];
 
         int rowCount = sheet.Dimension.Rows;
+
         int columnCount = sheet.Dimension.Columns;
 
         int parentColumn = -1;
 
         for (int col = 1; col <= columnCount; col++)
+
         {
+
             var header = sheet.Cells[1, col].Text.Trim();
 
             if (header.Equals("Parent Part", StringComparison.OrdinalIgnoreCase))
+
             {
+
                 parentColumn = col;
+
                 break;
+
             }
+
         }
 
         var bomRows = new List<BomData>();
 
         if (parentColumn == -1)
+
             return bomRows;
 
         for (int row = 2; row <= rowCount; row++)
+
         {
+
             var parent = sheet.Cells[row, parentColumn].Text.Trim();
+
             var child = sheet.Cells[row, itemNumberColumn].Text.Trim();
 
             if (string.IsNullOrWhiteSpace(parent) ||
+
                 string.IsNullOrWhiteSpace(child))
+
                 continue;
 
-            bomRows.Add(new BomData
+            int qty = 1;
+
+            if (quantityColumn != -1)
+
             {
+
+                var qtyText = sheet.Cells[row, quantityColumn].Text.Trim();
+
+                if (!string.IsNullOrWhiteSpace(qtyText) &&
+
+                    int.TryParse(qtyText, out int parsedQty))
+
+                {
+
+                    qty = parsedQty;
+
+                }
+
+            }
+
+            bomRows.Add(new BomData
+
+            {
+
                 ParentPart = parent,
+
                 ChildPart = child,
-                Quantity = 1
+
+                Quantity = qty
+
             });
+
         }
 
         return bomRows;
+
     }
+
 
     private int DetectParentColumn(ExcelWorksheet sheet)
     {

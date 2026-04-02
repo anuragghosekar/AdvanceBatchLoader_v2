@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Advance Batch Loader.csproj": {}
+    "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\Advance Batch Loader.csproj": {}
   },
   "projects": {
-    "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Advance Batch Loader.csproj": {
+    "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\Advance Batch Loader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Advance Batch Loader.csproj",
+        "projectUniqueName": "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\Advance Batch Loader.csproj",
         "projectName": "Advance Batch Loader",
-        "projectPath": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\Advance Batch Loader.csproj",
+        "projectPath": "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\Advance Batch Loader.csproj",
         "packagesPath": "C:\\Users\\AnuragGhosekar\\.nuget\\packages\\",
-        "outputPath": "D:\\Assignments\\ABL_ARAS\\Advance Batch Loader\\obj\\",
+        "outputPath": "D:\\Assignments\\ABL_ARAS\\AdvanceBatchLoader_v2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
