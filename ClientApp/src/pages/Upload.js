@@ -393,27 +393,16 @@ function Upload() {
     return (
 
         <div className="upload-container">
-
             <h2>Item Loader</h2>
-
             {/* Upload Section */}
-
             <div className="upload-top-section">
-
                 <div className="drop-zone">
-
                     <h4>Upload Data Excel</h4>
-
                     <input
-
                         ref={dataInputRef}
-
                         type="file"
-
                         accept=".xls,.xlsx"
-
                         onChange={handleDataFileChange}
-
                     />
 
                     {dataFileName && (
@@ -424,70 +413,46 @@ function Upload() {
                                 className="remove-btn"
 
                                 onClick={() => {
-
                                     setDataFile(null);
-
                                     setDataFileName("");
-
                                     dataInputRef.current.value = "";
-
                                 }}
                             >
-
                                 ❌
                             </button>
                         </div>
-
                     )}
-
                 </div>
 
 
                 <div className="drop-zone">
-
                     <h4>Upload Mapping Excel</h4>
-
                     <input
-
                         ref={mappingInputRef}
-
                         type="file"
-
                         accept=".xls,.xlsx"
-
                         onChange={handleMappingFileChange}
-
                     />
 
                     {mappingFileName && (
                         <div className="file-name-row">
                             <span>{mappingFileName}</span>
                             <button
-
                                 className="remove-btn"
-
                                 onClick={() => {
-
                                     setMappingFile(null);
-
                                     setMappingFileName("");
-
                                     mappingInputRef.current.value = "";
-
                                 }}
                             >
 
                                 ❌
                             </button>
                         </div>
-
                     )}
-
                 </div>
 
-
                 <div className="itemtype-section">
-
                     <button
                         className="import-btn"
                         onClick={handleImport}
@@ -495,34 +460,26 @@ function Upload() {
                     >
                         Start Import
                     </button>
-
                     <select
                         value={itemType}
                         onChange={(e) => setItemType(e.target.value)}
                     >
-
                         <option value="">Select ItemType</option>
-
                         {itemTypes.map((type, index) => (
                             <option key={index} value={type}>
                                 {type}
                             </option>
                         ))}
-
                     </select>
-
                 </div>
-
             </div>
 
 
             {/* Progress Section */}
 
             <div className="logs-section">
-
                 <div className="logs-header">
                     <h4>Import Progress</h4>
-
                     <button
                         className="export-btn"
                         onClick={exportLogs}
@@ -532,17 +489,12 @@ function Upload() {
                 </div>
 
                 <div className="logs-table-container">
-
                     <div className="import-status-card">
                         {currentItem}
                     </div>
-
                 </div>  
-
             </div>
-
         </div>
-
     );
 }
 
