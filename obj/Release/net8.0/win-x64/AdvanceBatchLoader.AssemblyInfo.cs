@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdvanceBatchLoader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2280d2658f3872ace6441e5a0d33e047ea425da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc3bd62bd9e8524b79ca56ab96fab82aace0a63b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdvanceBatchLoader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdvanceBatchLoader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

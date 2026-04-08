@@ -35,9 +35,7 @@ public class ExcelService
         var sheet = package.Workbook.Worksheets[0];
 
         int rowCount = sheet.Dimension.Rows;
-
         var mappings = new List<ColumnMapping>();
-
         for (int row = 2; row <= rowCount; row++)
         {
             var excelColumn = sheet.Cells[row, 1].Text.Trim();
@@ -46,14 +44,12 @@ public class ExcelService
             if (string.IsNullOrWhiteSpace(excelColumn) ||
                 string.IsNullOrWhiteSpace(arasProperty))
                 continue;
-
             mappings.Add(new ColumnMapping
             {
                 ExcelColumnName = excelColumn,
                 PropertyName = arasProperty
             });
         }
-
         return mappings;
     }
 
@@ -62,17 +58,14 @@ public class ExcelService
     List<ColumnMapping> mappings)
     {
         int columnCount = sheet.Dimension.Columns;
-
         for (int col = 1; col <= columnCount; col++)
         {
             var header = sheet.Cells[1, col].Text.Trim();
-
             foreach (var map in mappings.Where(m => m.ExcelColumnName == header))
             {
                 map.ColumnIndex = col;
             }
         }
-
         return mappings;
     }
 
@@ -82,32 +75,24 @@ public class ExcelService
     {
         using var package = new ExcelPackage(stream);
         var sheet = package.Workbook.Worksheets[0];
-
         int rowCount = sheet.Dimension.Rows;
-
         var rows = new List<Dictionary<string, string>>();
-
         for (int row = 2; row <= rowCount; row++)
         {
             var data = new Dictionary<string, string>();
-
             foreach (var map in mappings)
             {
                 if (map.ColumnIndex <= 0 || map.ColumnIndex > sheet.Dimension.Columns)
                     continue;
-
                 var value = sheet.Cells[row, map.ColumnIndex].Text?.Trim();
-
                 if (!string.IsNullOrWhiteSpace(value))
                 {
                     data[map.PropertyName] = value;
                 }
             }
-
             if (data.Count > 0)
                 rows.Add(data);
         }
-
         return rows;
     }
 

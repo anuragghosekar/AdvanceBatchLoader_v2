@@ -37,7 +37,6 @@ function Upload() {
 
         const text = await res.text();
 
-        console.log("AML Response:", text);
 
         return text;
     }
@@ -281,8 +280,23 @@ function Upload() {
                     }
 
                 } else {
+
                     successCount += batch.length;
-                    console.log(`✅ Batch ${i + 1} success`);
+                    const now = new Date();
+                    batch.forEach(row => {
+                        setLogs(prev => [
+                            ...prev,
+                            {
+                                date: now.toLocaleDateString(),
+                                time: now.toLocaleTimeString(),
+                                item: row.item_number || row.name || "",
+                                status: "SUCCESS",
+                                error: ""
+                            }
+                        ]);
+
+                    });
+
                 }
 
                 setCurrentItem(
@@ -373,9 +387,21 @@ function Upload() {
 
         let content = "Date\tTime\tItem\tStatus\tError\n";
 
+        let successCount = 0;
+        let failCount = 0;
+
         logs.forEach(log => {
+
+            if (log.status === "SUCCESS") successCount++;
+            if (log.status === "FAILED") failCount++;
+
             content += `${log.date}\t${log.time}\t${log.item}\t${log.status}\t${log.error}\n`;
         });
+
+        content += "\n----------------------------------------\n";
+        content += `Total Items:\t${logs.length}\n`;
+        content += `Successful Items:\t${successCount}\n`;
+        content += `Failed Items:\t${failCount}\n`;
 
         const blob = new Blob([content], { type: "text/plain" });
 
